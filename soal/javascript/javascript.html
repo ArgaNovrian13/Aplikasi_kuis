@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soal Javascript</title>
+    <link rel="stylesheet" href="javascript.css" />
+  </head>
+  <body>
+    <div>
+      <header>Soal Quiz Javascript</header>
+      <main>
+        <!-- Soal I -->
+        <article id="article-1">
+          <h4>Soal 1</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            totam illum quod consectetur velit, rem quam sequi est hic quibusdam
+            ducimus sed. Ab, aut illum? Modi ex vel suscipit excepturi.
+          </p>
+          <form>
+            <input type="radio" name="soal-1" id="a1" value="A" />
+            <label for="a1">A</label>
+            <input type="radio" name="soal-1" id="b1" value="B" />
+            <label for="b1">B</label>
+            <input type="radio" name="soal-1" id="c1" value="C" />
+            <label for="c1">C</label>
+            <button type="button" id="next-1">Next</button>
+          </form>
+        </article>
+
+        <!-- Soal II -->
+        <article id="article-2" style="display: none">
+          <h4>Soal 2</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+            quaerat sint aliquid alias exercitationem necessitatibus modi,
+            voluptates iure cum ducimus non? Alias vel libero quasi harum,
+            itaque eos sed similique?
+          </p>
+          <form>
+            <input type="radio" name="soal-2" id="a2" value="A" />
+            <label for="a2">A</label>
+            <input type="radio" name="soal-2" id="b2" value="B" />
+            <label for="b2">B</label>
+            <input type="radio" name="soal-2" id="c2" value="C" />
+            <label for="c2">C</label>
+            <button type="button" id="prev-2">Prev</button>
+            <button type="button" id="next-2">Next</button>
+          </form>
+        </article>
+
+        <!-- Soal III -->
+        <article id="article-3" style="display: none">
+          <h4>Soal 3</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint est
+            quod rem ad molestias doloribus optio qui ipsa, voluptatem facere
+            totam magnam praesentium odit consectetur? Delectus illo natus ut.
+            Quasi!
+          </p>
+          <form>
+            <input type="radio" name="soal-3" id="a3" value="A" />
+            <label for="a3">A</label>
+            <input type="radio" name="soal-3" id="b3" value="B" />
+            <label for="b3">B</label>
+            <input type="radio" name="soal-3" id="c3" value="C" />
+            <label for="c3">C</label>
+            <button type="button" id="prev-3">Prev</button>
+            <button type="button" id="next-3">Next</button>
+          </form>
+        </article>
+        <!-- Soal IV -->
+        <article id="article-4" style="display: none">
+          <h4>Soal 4</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint est
+            quod rem ad molestias doloribus optio qui ipsa, voluptatem facere
+            totam magnam praesentium odit consectetur? Delectus illo natus ut.
+            Quasi!
+          </p>
+          <form>
+            <input type="radio" name="soal-4" id="a3" value="A" />
+            <label for="a3">A</label>
+            <input type="radio" name="soal-4" id="b3" value="B" />
+            <label for="b3">B</label>
+            <input type="radio" name="soal-4" id="c3" value="C" />
+            <label for="c3">C</label>
+            <button type="button" id="prev-4">Prev</button>
+            <button type="button" id="next-4">Next</button>
+          </form>
+        </article>
+        <!-- Soal 5 -->
+        <article id="article-5" style="display: none">
+          <h4>Soal 5</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint est
+            quod rem ad molestias doloribus optio qui ipsa, voluptatem facere
+            totam magnam praesentium odit consectetur? Delectus illo natus ut.
+            Quasi!
+          </p>
+          <form>
+            <input type="radio" name="soal-5" id="a3" value="A" />
+            <label for="a3">A</label>
+            <input type="radio" name="soal-5" id="b3" value="B" />
+            <label for="b3">B</label>
+            <input type="radio" name="soal-5" id="c3" value="C" />
+            <label for="c3">C</label>
+            <button type="button" id="prev-5">Prev</button>
+            <button type="button" id="submit">Submit</button>
+          </form>
+        </article>
+        <!-- Tabel Hasil -->
+        <article id="result" style="display: none">
+          <h4>Hasil Kuis</h4>
+          <table border="1" cellspacing="5" cellpadding="5" width="50%">
+            <thead>
+              <tr>
+                <th>Soal</th>
+                <th>Jawaban Anda</th>
+                <th>Jawaban Benar</th>
+                <th>Skor</th>
+              </tr>
+            </thead>
+            <tbody id="result-body"></tbody>
+          </table>
+          <p>Total Skor: <span id="total-score"></span></p>
+        </article>
+      </main>
+      <a href="../index.html">Dashboard</a>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
